@@ -1,0 +1,44 @@
+{
+  "skills": [
+    {
+      "name": "app2email-whatsapp",
+      "description": "Send and receive WhatsApp Business messages through the app2email API (templates, free-form replies inside the 24 hour window, conversations, contacts, Do Not Call list, broadcasts, webhooks). Use when the user mentions WhatsApp messaging, WhatsApp templates, app2email, or wants an agent to message customers on WhatsApp.",
+      "files": [
+        "SKILL.md",
+        "references/endpoints.md",
+        "references/errors.md",
+        "references/webhooks.md"
+      ],
+      "url": "https://raw.githubusercontent.com/app2email/skills/main/app2email-whatsapp/SKILL.md",
+      "site_url": "https://www.app2email.com/skills/app2email-whatsapp/SKILL.md"
+    },
+    {
+      "name": "app2email-setup",
+      "description": "Set up an agent or automation to use app2email's WhatsApp API: start an app2email account for a person (Management MCP create_account), get the number connected, create an API key with the right scopes (or a sandbox key), connect the MCP server, n8n, Zapier, Make, Power Automate or the SDKs, and check that the key works. Use when the user is configuring app2email access, asks for an app2email API key or account, or wants to connect a tool to app2email.",
+      "files": [
+        "SKILL.md"
+      ],
+      "url": "https://raw.githubusercontent.com/app2email/skills/main/app2email-setup/SKILL.md",
+      "site_url": "https://www.app2email.com/skills/app2email-setup/SKILL.md"
+    },
+    {
+      "name": "app2email-broadcasts",
+      "description": "Send WhatsApp template messages to one contact, a list or a segment through app2email: pick an approved template, fill its values (body text, header media, buttons, named placeholders), personalise per recipient, schedule, dry run, run big lists in the background, follow delivery, and respect consent and the Do Not Call list. Use when the user wants to notify, remind or market to customers on WhatsApp, or asks about WhatsApp templates and broadcasts.",
+      "files": [
+        "SKILL.md",
+        "references/send-template.md"
+      ],
+      "url": "https://raw.githubusercontent.com/app2email/skills/main/app2email-broadcasts/SKILL.md",
+      "site_url": "https://www.app2email.com/skills/app2email-broadcasts/SKILL.md"
+    },
+    {
+      "name": "app2email-agent-handoff",
+      "description": "Run an AI agent that answers WhatsApp conversations through app2email and hands them to a person when needed: check the 24 hour reply window, read the conversation, reply free-form or with a template, claim or release conversation ownership (agent, human, paused), write a handoff summary, and react to webhook events. Use when building or operating a WhatsApp support or sales agent on app2email, or when a WhatsApp conversation must go to a human.",
+      "files": [
+        "SKILL.md"
+      ],
+      "url": "https://raw.githubusercontent.com/app2email/skills/main/app2email-agent-handoff/SKILL.md",
+      "site_url": "https://www.app2email.com/skills/app2email-agent-handoff/SKILL.md"
+    }
+  ]
+}

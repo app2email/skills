@@ -1,0 +1,43 @@
+{
+  "name": "app2email",
+  "displayName": "app2email WhatsApp",
+  "version": "1.1.0",
+  "description": "Send and receive WhatsApp Business messages through app2email: skills for setup, templates and broadcasts, agent handoff, plus the app2email MCP server",
+  "author": {
+    "name": "app2email",
+    "email": "support@app2email.com",
+    "url": "https://www.app2email.com"
+  },
+  "homepage": "https://www.app2email.com/docs/api",
+  "repository": "https://github.com/app2email/skills",
+  "license": "MIT",
+  "keywords": [
+    "whatsapp",
+    "whatsapp-business",
+    "messaging",
+    "app2email",
+    "mcp"
+  ],
+  "documentationUrl": "https://www.app2email.com/docs/api/mcp",
+  "supportUrl": "https://www.app2email.com/dashboard/support",
+  "privacyPolicyUrl": "https://www.app2email.com/legal/privacy-policy",
+  "termsOfServiceUrl": "https://www.app2email.com/legal/terms-of-service",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "app2email API key",
+      "description": "From https://www.app2email.com/dashboard/apikey (starts with a2e_; it belongs to one WhatsApp number). A sandbox key is fine for testing.",
+      "sensitive": true,
+      "required": true
+    }
+  },
+  "mcpServers": {
+    "app2email": {
+      "type": "http",
+      "url": "https://api.app2email.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "app2email",
+  "description": "app2email: WhatsApp Business messaging for agents (skills + the app2email MCP server)",
+  "owner": {
+    "name": "app2email",
+    "url": "https://www.app2email.com"
+  },
+  "plugins": [
+    {
+      "name": "app2email",
+      "source": "./plugins/app2email",
+      "description": "Send and receive WhatsApp Business messages through app2email: skills for setup, templates and broadcasts, agent handoff, plus the app2email MCP server",
+      "version": "1.1.0",
+      "author": {
+        "name": "app2email",
+        "url": "https://www.app2email.com"
+      },
+      "homepage": "https://www.app2email.com/docs/api",
+      "keywords": [
+        "whatsapp",
+        "messaging",
+        "app2email",
+        "mcp"
+      ]
+    }
+  ]
+}
